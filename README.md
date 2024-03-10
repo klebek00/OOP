@@ -30,4 +30,6 @@
 #### TimerOff()
 # 3. Классы
 ![image](https://github.com/klebek00/OOP/assets/159562707/d8f5d7e3-ac45-4f6c-aa5c-f5d548ea1664)
+![Диаграмма без названия drawio (3)](https://github.com/klebek00/OOP/assets/159562707/b0dbf34b-5ba3-4ce4-a01c-f34011820b00)
+
 
