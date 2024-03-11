@@ -1,4 +1,4 @@
-# Клебеко Елена 253504
+![Диаграмма без названия (3) drawio](https://github.com/klebek00/OOP/assets/159562707/0b3a254a-7604-449f-a550-29197c8806c0)# Клебеко Елена 253504
 # Water Tracker Application
 # Описание проекта
 # 1. Цели проекта
@@ -30,6 +30,8 @@
 #### TimerOff()
 # 3. Классы
 ![image](https://github.com/klebek00/OOP/assets/159562707/d8f5d7e3-ac45-4f6c-aa5c-f5d548ea1664)
-![Диаграмма без названия drawio (3)](https://github.com/klebek00/OOP/assets/159562707/b0dbf34b-5ba3-4ce4-a01c-f34011820b00)
+![Диаграмма без названия (3) drawio](https://github.com/klebek00/OOP/assets/159562707/2958eeca-87f4-47f2-99fc-33083afe8dce)
+
+
 
 
