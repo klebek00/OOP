@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\2 rehc\\OOP\\water_tracker_app\\water_tracker\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{73945AF7-86C0-432C-98B8-E5088D705D10}|water_tracker.csproj|D:\\2 rehc\\OOP\\water_tracker_app\\water_tracker\\mainfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73945AF7-86C0-432C-98B8-E5088D705D10}|water_tracker.csproj|solutionrelative:mainfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73945AF7-86C0-432C-98B8-E5088D705D10}|water_tracker.csproj|d:\\2 rehc\\oop\\water_tracker_app\\water_tracker\\entities\\timereminder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73945AF7-86C0-432C-98B8-E5088D705D10}|water_tracker.csproj|solutionrelative:entities\\timereminder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73945AF7-86C0-432C-98B8-E5088D705D10}|water_tracker.csproj|D:\\2 rehc\\OOP\\water_tracker_app\\water_tracker\\entities\\history.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73945AF7-86C0-432C-98B8-E5088D705D10}|water_tracker.csproj|solutionrelative:entities\\history.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73945AF7-86C0-432C-98B8-E5088D705D10}|water_tracker.csproj|D:\\2 rehc\\OOP\\water_tracker_app\\water_tracker\\entities\\userinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73945AF7-86C0-432C-98B8-E5088D705D10}|water_tracker.csproj|solutionrelative:entities\\userinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73945AF7-86C0-432C-98B8-E5088D705D10}|water_tracker.csproj|D:\\2 rehc\\OOP\\water_tracker_app\\water_tracker\\entities\\daytarget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73945AF7-86C0-432C-98B8-E5088D705D10}|water_tracker.csproj|solutionrelative:entities\\daytarget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainFunction.cs",
+              "DocumentMoniker": "D:\\2 rehc\\OOP\\water_tracker_app\\water_tracker\\MainFunction.cs",
+              "RelativeDocumentMoniker": "MainFunction.cs",
+              "ToolTip": "D:\\2 rehc\\OOP\\water_tracker_app\\water_tracker\\MainFunction.cs",
+              "RelativeToolTip": "MainFunction.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T11:09:05.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserInfo.cs",
+              "DocumentMoniker": "D:\\2 rehc\\OOP\\water_tracker_app\\water_tracker\\Entities\\UserInfo.cs",
+              "RelativeDocumentMoniker": "Entities\\UserInfo.cs",
+              "ToolTip": "D:\\2 rehc\\OOP\\water_tracker_app\\water_tracker\\Entities\\UserInfo.cs",
+              "RelativeToolTip": "Entities\\UserInfo.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAIwDkAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T15:27:53.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TimeReminder.cs",
+              "DocumentMoniker": "D:\\2 rehc\\OOP\\water_tracker_app\\water_tracker\\Entities\\TimeReminder.cs",
+              "RelativeDocumentMoniker": "Entities\\TimeReminder.cs",
+              "ToolTip": "D:\\2 rehc\\OOP\\water_tracker_app\\water_tracker\\Entities\\TimeReminder.cs",
+              "RelativeToolTip": "Entities\\TimeReminder.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAIwA8AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T15:28:09.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DayTarget.cs",
+              "DocumentMoniker": "D:\\2 rehc\\OOP\\water_tracker_app\\water_tracker\\Entities\\DayTarget.cs",
+              "RelativeDocumentMoniker": "Entities\\DayTarget.cs",
+              "ToolTip": "D:\\2 rehc\\OOP\\water_tracker_app\\water_tracker\\Entities\\DayTarget.cs",
+              "RelativeToolTip": "Entities\\DayTarget.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEEAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T15:28:42.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "History.cs",
+              "DocumentMoniker": "D:\\2 rehc\\OOP\\water_tracker_app\\water_tracker\\Entities\\History.cs",
+              "RelativeDocumentMoniker": "Entities\\History.cs",
+              "ToolTip": "D:\\2 rehc\\OOP\\water_tracker_app\\water_tracker\\Entities\\History.cs",
+              "RelativeToolTip": "Entities\\History.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAUwCIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T15:28:25.961Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
