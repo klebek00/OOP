@@ -2042,11 +2042,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\2 rehc\\OOP\\water_tracker_app\\water_tracker\\water_tracker.csproj",
+      "projectUniqueName": "D:\\2_rehc\\OOP\\water_tracker_app\\water_tracker\\water_tracker.csproj",
       "projectName": "water_tracker",
-      "projectPath": "D:\\2 rehc\\OOP\\water_tracker_app\\water_tracker\\water_tracker.csproj",
+      "projectPath": "D:\\2_rehc\\OOP\\water_tracker_app\\water_tracker\\water_tracker.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "D:\\2 rehc\\OOP\\water_tracker_app\\water_tracker\\obj\\",
+      "outputPath": "D:\\2_rehc\\OOP\\water_tracker_app\\water_tracker\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

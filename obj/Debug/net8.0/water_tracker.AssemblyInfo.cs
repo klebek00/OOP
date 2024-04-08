@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("water_tracker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6f0e0ae1e7b8ae077b7a78893d8e55091fdfb5a3")]
 [assembly: System.Reflection.AssemblyProductAttribute("water_tracker")]
 [assembly: System.Reflection.AssemblyTitleAttribute("water_tracker")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

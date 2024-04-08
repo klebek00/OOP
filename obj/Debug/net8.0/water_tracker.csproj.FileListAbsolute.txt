@@ -29,3 +29,35 @@ D:\2 rehc\OOP\water_tracker_app\water_tracker\obj\Debug\net8.0\water_tracker.pdb
 D:\2 rehc\OOP\water_tracker_app\water_tracker\obj\Debug\net8.0\water_tracker.genruntimeconfig.cache
 D:\2 rehc\OOP\water_tracker_app\water_tracker\obj\Debug\net8.0\ref\water_tracker.dll
 D:\2 rehc\OOP\water_tracker_app\water_tracker\bin\Debug\net8.0\Microsoft.Toolkit.Uwp.Notifications.dll
+D:\2_rehc\OOP\water_tracker_app\water_tracker\obj\Debug\net8.0\water_tracker.csproj.AssemblyReference.cache
+D:\2_rehc\OOP\water_tracker_app\water_tracker\obj\Debug\net8.0\water_tracker.d-bfalse.GeneratedMSBuildEditorConfig.editorconfig
+D:\2_rehc\OOP\water_tracker_app\water_tracker\obj\Debug\net8.0\water_tracker.AssemblyInfoInputs.cache
+D:\2_rehc\OOP\water_tracker_app\water_tracker\obj\Debug\net8.0\water_tracker.AssemblyInfo.cs
+D:\2_rehc\OOP\water_tracker_app\water_tracker\obj\Debug\net8.0\water_tracker.csproj.CoreCompileInputs.cache
+D:\2_rehc\OOP\water_tracker_app\water_tracker\obj\Debug\net8.0\water_tracker.sourcelink.json
+D:\2_rehc\OOP\water_tracker_app\water_tracker\obj\Debug\net8.0\water_tracker.dll
+D:\2_rehc\OOP\water_tracker_app\water_tracker\obj\Debug\net8.0\refint\water_tracker.dll
+D:\2_rehc\OOP\water_tracker_app\water_tracker\obj\Debug\net8.0\water_tracker.pdb
+D:\2_rehc\OOP\water_tracker_app\water_tracker\bin\Debug\net8.0\water_tracker.exe
+D:\2_rehc\OOP\water_tracker_app\water_tracker\bin\Debug\net8.0\water_tracker.deps.json
+D:\2_rehc\OOP\water_tracker_app\water_tracker\bin\Debug\net8.0\water_tracker.runtimeconfig.json
+D:\2_rehc\OOP\water_tracker_app\water_tracker\bin\Debug\net8.0\water_tracker.dll
+D:\2_rehc\OOP\water_tracker_app\water_tracker\bin\Debug\net8.0\water_tracker.pdb
+D:\2_rehc\OOP\water_tracker_app\water_tracker\bin\Debug\net8.0\Microsoft.Toolkit.Uwp.Notifications.dll
+D:\2_rehc\OOP\water_tracker_app\water_tracker\bin\Debug\net8.0\System.Runtime.InteropServices.WindowsRuntime.dll
+D:\2_rehc\OOP\water_tracker_app\water_tracker\bin\Debug\net8.0\Uno.Diagnostics.Eventing.dll
+D:\2_rehc\OOP\water_tracker_app\water_tracker\bin\Debug\net8.0\Uno.Fonts.Fluent.dll
+D:\2_rehc\OOP\water_tracker_app\water_tracker\bin\Debug\net8.0\Uno.Foundation.Logging.dll
+D:\2_rehc\OOP\water_tracker_app\water_tracker\bin\Debug\net8.0\Uno.Foundation.dll
+D:\2_rehc\OOP\water_tracker_app\water_tracker\bin\Debug\net8.0\Uno.UI.Composition.dll
+D:\2_rehc\OOP\water_tracker_app\water_tracker\bin\Debug\net8.0\Uno.UI.Dispatching.dll
+D:\2_rehc\OOP\water_tracker_app\water_tracker\bin\Debug\net8.0\Uno.UI.FluentTheme.dll
+D:\2_rehc\OOP\water_tracker_app\water_tracker\bin\Debug\net8.0\Uno.UI.FluentTheme.v1.dll
+D:\2_rehc\OOP\water_tracker_app\water_tracker\bin\Debug\net8.0\Uno.UI.FluentTheme.v2.dll
+D:\2_rehc\OOP\water_tracker_app\water_tracker\bin\Debug\net8.0\Uno.UI.Toolkit.dll
+D:\2_rehc\OOP\water_tracker_app\water_tracker\bin\Debug\net8.0\Uno.UI.dll
+D:\2_rehc\OOP\water_tracker_app\water_tracker\bin\Debug\net8.0\Uno.Xaml.dll
+D:\2_rehc\OOP\water_tracker_app\water_tracker\bin\Debug\net8.0\Uno.dll
+D:\2_rehc\OOP\water_tracker_app\water_tracker\obj\Debug\net8.0\water_tr.CCAD7FF6.Up2Date
+D:\2_rehc\OOP\water_tracker_app\water_tracker\obj\Debug\net8.0\water_tracker.genruntimeconfig.cache
+D:\2_rehc\OOP\water_tracker_app\water_tracker\obj\Debug\net8.0\ref\water_tracker.dll

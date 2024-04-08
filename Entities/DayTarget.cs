@@ -10,13 +10,17 @@ namespace water_tracker.Entities
 {
     public class DayTarget
     {
-        public double DayNorm { get; set; }
+        public int DayNorm { get; set; }
         public int Volume { get; set; }
         public int DayCounter { get; set; }
+        public int DrinkCount { get; set; }
+
         public TimeCheck time;
         public DayTarget(UserAccaunt user)
         {
-            DayCounter = 0;
+            DayNorm = 0;//constanta
+            DayCounter = 0;//vipito
+            DrinkCount = DayNorm;//ostalos' 
             Volume = 250;
             time = new TimeCheck();
             time.NewDay += OnNewDay;
@@ -24,37 +28,61 @@ namespace water_tracker.Entities
         }
         public delegate void NextDayHandler(DayTarget targ);
         public event NextDayHandler NextDay;
-        public void SetVolumeType(int num)
+        public void SetVolumeType()
         {
-            if (num == 1)
-            {
-                num = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Choose volume setting type");
+            Console.WriteLine($"Your volume now: {Volume}");
+            Console.WriteLine("");
+            Console.WriteLine("Please choose an option by entering a number.");
+            Console.WriteLine("1. System volumes");
+            Console.WriteLine("2. Your personal");
 
-                switch (num)
+            Console.Write("Enter your selection: ");
+            var num = Console.ReadLine();
+
+            Console.Clear();
+
+            if (num == "1")
+            {
+                Console.WriteLine("Choose volume type");
+                Console.WriteLine("");
+                Console.WriteLine("Please choose an option by entering a number.");
+                Console.WriteLine("1. 100 ml");
+                Console.WriteLine("2. 125 ml");
+                Console.WriteLine("3. 150 ml");
+                Console.WriteLine("4. 175 ml");
+                Console.WriteLine("5. 300 ml");
+                Console.WriteLine("6. 400 ml");
+
+                var type = Convert.ToInt32(Console.ReadLine());
+
+                switch (type)
                 {
-                    case 0:
+                    case 1:
                         Volume = 100;
                         break;
-                    case 1:
+                    case 2:
                         Volume = 125;
                         break;
-                    case 2:
+                    case 3:
                         Volume = 150;
                         break;
-                    case 3:
+                    case 4:
                         Volume = 175;
                         break;
-                    case 4:
+                    case 5:
                         Volume = 300;
                         break;
-                    case 5:
+                    case 6:
                         Volume = 400;
                         break;
                 }
             }
 
-            if (num == 2)
+            if (num == "2")
             {
+                Console.Write("Please, enter your personal volume: ");
+
                 Volume = Convert.ToInt32(Console.ReadLine());
             }
         }
@@ -63,24 +91,28 @@ namespace water_tracker.Entities
         {
             time.NewDayStart();
             DayCounter += Volume;
+            DrinkCount -= Volume;
             NextDay?.Invoke(this);
         }
 
         public void OnNewDay()
         {
             DayCounter = 0;
+            DrinkCount = DayNorm;
         }
-        void CalculateWaterGoal(UserAccaunt user)
+        public void CalculateWaterGoal(UserAccaunt user)
         {
             if (user.Gender == false)
             {
-                DayNorm = 88.362 + 13.397 * user.Waight + 4.799 * user.Hight - 5.677 * user.Age;
+                DayNorm = Convert.ToInt32(88.362 + 13.397 * user.Waight + 4.799 * user.Hight - 5.677 * user.Age);
             }
 
             if (user.Gender == true)
             {
-                DayNorm = 447.593 + 9.247 * user.Waight + 3.098 * user.Hight - 4.330 * user.Age;
+                DayNorm = Convert.ToInt32(447.593 + 9.247 * user.Waight + 3.098 * user.Hight - 4.330 * user.Age);
             }
+            DrinkCount = DayNorm;
+            DrinkCount -= DayCounter;
 
         }
     }
