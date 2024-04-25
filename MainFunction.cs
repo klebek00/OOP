@@ -4,7 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using water_tracker.Entities;
+using water_tracker.Interface;
 using Windows.UI.Xaml.Documents;
+using Windows.UI.Xaml.Hosting;
 
 namespace water_tracker
 {
@@ -12,15 +14,34 @@ namespace water_tracker
     {
         public static void Welcome(UserAccaunt user, DayTarget target)
         {
+
             string userName = user.Name;
             int goal = target.DrinkCount;
             if (target.DrinkCount < 0) goal = 0;
             if (userName == null)
             {
-                Console.WriteLine("Welcome! Let's create a new accaunt");
-                user.NewAccaunt();
-                target.CalculateWaterGoal(user);
-                return;
+                Console.WriteLine("Welcome!");
+                Console.WriteLine("");
+                Console.WriteLine("Please choose an option by entering a number.");
+                Console.WriteLine("1. Log In");
+                Console.WriteLine("2. Sign Up");
+
+                Console.Write("Enter your selection: ");
+                var type = Console.ReadLine();
+                Console.Clear();
+                if (type == "1")
+                {
+                    user.LogIn();
+                    target.CalculateWaterGoal(user);
+                    return;
+                }
+                else if (type == "2")
+                {
+                    Console.WriteLine("OK! Let's create a new accaunt");
+                    user.NewAccaunt();
+                    target.CalculateWaterGoal(user);
+                    return;
+                }
             }
             Console.WriteLine($"Welcome {user.Name}!!");
             Console.WriteLine($"Today goal {goal}");
@@ -34,7 +55,8 @@ namespace water_tracker
             Welcome(user, target);
             TimeReminder time = new TimeReminder();
             time.Init();
-            History history = new History(target);
+            History history = new History(target, user);
+            //SerializationLibrary.SerilestirJson.JsonDeserialize()
             while(true)
             {
                 Console.Clear();
@@ -57,7 +79,7 @@ namespace water_tracker
                 {
                     Console.Clear();
 
-                    target.DrinkFunc();
+                    target.DrinkFunc(user);
                 }
                 else if (input == "2")
                 {

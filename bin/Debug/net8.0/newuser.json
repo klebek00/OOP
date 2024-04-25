@@ -1,0 +1,12 @@
+{
+  "Id": 0,
+  "Login": "new",
+  "Password": "user",
+  "Name": "You",
+  "Hight": 168,
+  "Waight": 55,
+  "Age": 23,
+  "Gender": true,
+  "MorningTime": "2024-04-26T09:00:00",
+  "SleepTime": "2024-04-26T23:00:00"
+}

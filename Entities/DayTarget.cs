@@ -26,7 +26,7 @@ namespace water_tracker.Entities
             time.NewDay += OnNewDay;
             CalculateWaterGoal(user);
         }
-        public delegate void NextDayHandler(DayTarget targ);
+        public delegate void NextDayHandler(DayTarget targ, UserAccaunt user);
         public event NextDayHandler NextDay;
         public void SetVolumeType()
         {
@@ -87,12 +87,12 @@ namespace water_tracker.Entities
             }
         }
 
-        public void DrinkFunc()
+        public void DrinkFunc(UserAccaunt user)
         {
             time.NewDayStart();
             DayCounter += Volume;
             DrinkCount -= Volume;
-            NextDay?.Invoke(this);
+            NextDay?.Invoke(this, user);
         }
 
         public void OnNewDay()

@@ -61,3 +61,6 @@ D:\2_rehc\OOP\water_tracker_app\water_tracker\bin\Debug\net8.0\Uno.dll
 D:\2_rehc\OOP\water_tracker_app\water_tracker\obj\Debug\net8.0\water_tr.CCAD7FF6.Up2Date
 D:\2_rehc\OOP\water_tracker_app\water_tracker\obj\Debug\net8.0\water_tracker.genruntimeconfig.cache
 D:\2_rehc\OOP\water_tracker_app\water_tracker\obj\Debug\net8.0\ref\water_tracker.dll
+D:\2_rehc\OOP\water_tracker_app\water_tracker\bin\Debug\net8.0\SerializationLibrary.dll
+D:\2_rehc\OOP\water_tracker_app\water_tracker\bin\Debug\net8.0\SerializationLibrary.pdb
+D:\2_rehc\OOP\water_tracker_app\water_tracker\bin\Debug\net8.0\Newtonsoft.Json.dll

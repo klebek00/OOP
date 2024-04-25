@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UserAccaunt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Id>0</Id>
+  <Login>ff</Login>
+  <Password>ww</Password>
+  <Name>f</Name>
+  <Hight>123</Hight>
+  <Waight>23</Waight>
+  <Age>12</Age>
+  <Gender>false</Gender>
+  <MorningTime>2024-04-25T08:00:00</MorningTime>
+  <SleepTime>2024-04-25T23:00:00</SleepTime>
+</UserAccaunt>

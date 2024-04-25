@@ -1,0 +1,12 @@
+{
+  "Id": 0,
+  "Login": "new",
+  "Password": "acc",
+  "Name": "Danis",
+  "Hight": 170,
+  "Waight": 60,
+  "Age": 23,
+  "Gender": true,
+  "MorningTime": "2024-04-25T08:00:00",
+  "SleepTime": "2024-04-25T23:00:00"
+}

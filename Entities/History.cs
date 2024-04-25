@@ -5,20 +5,30 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using water_tracker.Interface;
+using Windows.System;
 
 namespace water_tracker.Entities
 {
     internal class History
     {
-        public History(DayTarget targ) 
+        public History(DayTarget targ, UserAccaunt user) 
         {
             targ.NextDay += OnDrincFunc;
+            string filePath = $"{user.Login}{user.Password}hist.json";
+            if (File.Exists(filePath))
+            {
+                var loadData = SerializationLibrary.SerilestirJson.Deserialize<Dictionary<DateTime, int>>(filePath);
+                this.drinkAmount = loadData;
+            }
         }
         Dictionary<DateTime, int> drinkAmount = new Dictionary<DateTime, int>();
 
-        public void OnDrincFunc(DayTarget targ)
+        public void OnDrincFunc(DayTarget targ, UserAccaunt user)
         {
             drinkAmount.Add(DateTime.Now, targ.Volume);
+            string filePath = $"{user.Login}{user.Password}hist.json";
+            SerializationLibrary.SerilestirJson.Serialize(drinkAmount, filePath);
+
             //Console.WriteLine(drinkAmount.Values.Count);
         }
         public void GetDayHistory()

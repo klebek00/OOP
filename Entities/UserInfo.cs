@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Windows.System;
+using Newtonsoft.Json;
 
 namespace water_tracker.Entities
 {
@@ -28,11 +29,32 @@ namespace water_tracker.Entities
             string nPass = Console.ReadLine();
             Password = nPass;
             PersonalData();
-
+            string filePath = $"{this.Login}{this.Password}.json";
+            SerializationLibrary.SerilestirJson.Serialize(this, filePath);
         }
-        internal void LogIn()///
+        public void LogIn()///
         {
+            Console.WriteLine("Enter Login");
+            string nLog = Console.ReadLine();
+            //Login = nLog;
+            Console.WriteLine("Enter Password");
+            string nPass = Console.ReadLine();
+            //Password = nPass;
 
+            string filePath = $"{nLog}{nPass}.json";
+
+            var loadData = SerializationLibrary.SerilestirJson.Deserialize<UserAccaunt>(filePath);
+
+            this.Id = loadData.Id;
+            this.Login = loadData.Login;
+            this.Password = loadData.Password;
+            this.Name = loadData.Name;
+            this.Age = loadData.Age;
+            this.Gender = loadData.Gender;
+            this.Hight = loadData.Hight;
+            this.Waight = loadData.Waight;
+            this.MorningTime = loadData.MorningTime;
+            this.SleepTime = loadData.SleepTime;
         }
         public void PersonalData()
         {
@@ -116,6 +138,10 @@ namespace water_tracker.Entities
                     Console.WriteLine("Enter your new Name");
                     string nName = Console.ReadLine();
                     Name = nName;
+
+                    string filePath = $"{this.Login}{this.Password}.json";
+                    SerializationLibrary.SerilestirJson.Serialize(this, filePath);
+
                 }
                 else if (input == "2")
                 {
@@ -126,6 +152,10 @@ namespace water_tracker.Entities
                     Console.WriteLine("Ok!! Calculate your New Day Target");
                     Utility.PrintDotAnimation();
 
+                    string filePath = $"{this.Login}{this.Password}.json";
+                    SerializationLibrary.SerilestirJson.Serialize(this, filePath);
+
+
                 }
                 else if (input == "3")
                 {
@@ -133,12 +163,19 @@ namespace water_tracker.Entities
                     int nWaight = Convert.ToInt32(Console.ReadLine());
                     Waight = nWaight;
 
+                    string filePath = $"{this.Login}{this.Password}.json";
+                    SerializationLibrary.SerilestirJson.Serialize(this, filePath);
+
+
                 }
                 else if (input == "4")
                 {
                     Console.WriteLine("Enter your new Age");
                     int nAge = Convert.ToInt32(Console.ReadLine());
                     Age = nAge;
+
+                    string filePath = $"{this.Login}{this.Password}.json";
+                    SerializationLibrary.SerilestirJson.Serialize(this, filePath);
 
                 }
                 else if (input == "5")
@@ -153,18 +190,30 @@ namespace water_tracker.Entities
                     {
                         Gender = false;
                     }
+
+                    string filePath = $"{this.Login}{this.Password}.json";
+                    SerializationLibrary.SerilestirJson.Serialize(this, filePath);
+
                 }
                 else if (input == "6")
                 {
                     Console.WriteLine("What time do you start your day now??");
                     DateTime nMorning = Convert.ToDateTime(Console.ReadLine());
                     MorningTime = nMorning;
+
+                    string filePath = $"{this.Login}{this.Password}.json";
+                    SerializationLibrary.SerilestirJson.Serialize(this, filePath);
+
                 }
                 else if (input == "7")
                 {
                     Console.WriteLine("What time do you go to sleep now??");
                     DateTime nSleep = Convert.ToDateTime(Console.ReadLine());
                     SleepTime = nSleep;
+
+                    string filePath = $"{this.Login}{this.Password}.json";
+                    SerializationLibrary.SerilestirJson.Serialize(this, filePath);
+
                 }
                 else
                 {
